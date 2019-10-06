@@ -23,4 +23,7 @@ def swap_elements_from_to(array,orig_index,dest_index)
   array[orig_index] = temp
   array
 end
-  
+
+def reverse_array(array)
+  array.sort {|integer_1, integer_2| integer_2 <=> integer_1}
+end   

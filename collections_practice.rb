@@ -16,3 +16,11 @@ def swap_elements(array)
   array[1] = temp
   array
 end
+
+def swap_elements_from_to(array,orig_index,dest_index)
+  temp = array[dest_index]
+  array[dest_index] = array[orig_index]
+  array[orig_index] = temp
+  array
+end
+  

@@ -26,4 +26,4 @@ end
 
 def reverse_array(array)
   array.sort {|integer_1, integer_2| integer_2 <=> integer_1}
-end   
+end
